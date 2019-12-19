@@ -1,0 +1,78 @@
+Python Scripts – READ ME
+
+================
+
+This repository contains the source code for running the analysis described in the paper. Not all of the scripts in this repository will be relevant to the complete replication of the study - if you wish to do this, please send me an e-mail and we can sort something out (a.t.ho@bath.ac.uk).
+
+###Instructions:
+- All files run from the root directory.
+- Python scripts are found in 'Python_scripts' (all scripts are run using Python3)
+- R scripts are found in 'R_scripts'
+- UTR sequences are found in ‘FASTA files’
+
+###The folders found in my working directory are labelled 0-9, all available on request:
+- 0 - Scripts
+- 1 - Genome files 
+- 2 – Files for D. discoideum intraspecies analysis
+- 3 - PaxDB raw data and appropriate EMBL genomes
+- 4 - Outputs (includes CSVs)
+
+###Description of python scripts:
+
++4T_simulations.py – Simulates dinucleotide-controlled random sequences for +4T comparison
+Fourth_site_freqs.py – Calculate fourth site nucleotide frequencies
+FTP_download_fungi_gff.py – Download GFF files for the fungi group
+FTP_download_fungi_wgs.py – Download WGS fasta files for the fungi group
+FTP_download_metazoa_gff.py – Download GFF files for the metazoa group
+FTP_download_metazoa_wgs.py – Download WGS fasta files for the metazoa group
+FTP_download_plant _gff.py – Download GFF files for the plant group
+FTP_download_plant_wgs.py – Download WGS fasta files for the plant group
+FTP_download_vert_gff.py – Download GFF files for the vertebrates group
+FTP_download_vert_wgs.py – Download WGS fasta files for the vertebrates group
+Generic.py – Generic functions to be used in the analysis
+0_get_UTRs_paxdb_gtf.py – Extract UTR sequences from PaxDb genomes using GTF annotations
+0_get_UTRs_paxdb_gff.py – Extract UTR sequences from PaxDb genomes using GFF annotations
+0_get_UTRs.py – Extract UTR sequences from genomes using GTF annotations
+1_Chi_results_with_pos1.py – Calculate no. of genomes with ASC enrichment (includes position +1)
+1_Chi_results_without_pos1.py – Calculate no. of genomes with ASC enrichment (excludes position +1)
+1_A+C_chi.py – Calculate positional enrichment against A+C null
+1_sims_chi.py – Calculate positional enrichment against dinucleotide-controlled simulations
+2_dicty_get_fold_change.py – Calculate and extract fold-change values for each D. discoideum gene
+2_dicty_FC_analysis.py – Fold-change analysis for D. discoideum
+2_dicty_AC_null.py – Comparison of D. discoideum single and social growth genes to A+C null
+2_dicty_sims_null.py – Comparison of D. discoideum single and social growth genes to dinucleotide sims
+2_dicty_fourth_t.py – Calculate +4T frequencies for TAA, TGA, TAG-terminating single and social genes
+2_dicty_ASC_fourth_t_proportions.py – Calculate proportion of +4T-genes that also have a proximal ASC
+2_dicty_stop_usage.py – Count the number of TAA, TGA, TAG-terminating genes in single and social genes
+2_dicty_tstarting_codons.py – Calculate T-starting codon frequencies at each 3’ UTR codon position
+2_dicty_ASC_comparison.py – Calculate ASC frequencies in single and social genes
+3_thaliana_AC_null.py – Comparison of A. thaliana pollen-selective and pollen-depleted genes to A+C null
+3_thaliana_sims_null.py – Comparison of A. thaliana pollen-selective and pollen-depleted genes to sims
+3_thaliana_stop_usage.py – Count the number of TAA, TGA, TAG-terminating genes in the two gene groups
+3_thaliana_tstarting_codons.py – Calculate T-starting codon frequencies at each 3’ UTR codon position
+3_thaliana_ASC_comparison.py – Calculate ASC frequencies in pollen-specific and pollen-depleted genes
+3_thaliana_FC_analysis.py – Fold-change analysis for A. thaliana
+3_thaliana_fourth_t.py – Calculate +4T frequencies for TAA, TGA, TAG-terminating genes
+3_thaliana_primary_FC.py – Calculate stop codon usage for genes above and below a F/C threshold
+3_thaliana_ASC_fourth_t_proportions.py – Calculate proportion of +4T-genes that also have a proximal ASC
+4_aspergillus_stop_usage.py – Count usage of each stop in Aspergillus genes
+4_aspergillus_FC_analysis.py – Fold-change analysis for Aspergillus species
+4_aspergillus_ASC_comparison.py – Calculate ASC frequencies in CAGs and non-CAGs
+4_aspergillus_niger_AC_null.py – Comparison of CAGs and non-CAGs to A+C null
+4_aspergillus_niger_sims_null.py – Comparison of CAGs and non-CAGs to simulations
+4_aspergillus_oryzae_AC_null.py – Comparison of CAGs and non-CAGs to A+C null
+4_aspergillus_oryzae_sims_null.py – Comparison of CAGs and non-CAGs to simulations
+5_enrichment_scores.py – Calculate enrichment scores (mean of positional enrichment)
+5_variables.py – Calculate median IGR, median gene length, and GC content for genomes in model
+5_high_scores.py – Calculate high scores (highest positional enrichment)
+6_+4C.py – Compare C-starting codon frequency at position +1 to downstream
+6_+4T.py – Compare T-starting codon frequency at position +1 to downstream
+7_Expression_ASCs.py – Calculate ASC and +4T frequencies for HEGs and LEGs
+7_Expression_stop_preference.py – Count usage of each stop codon within HEGs and LEGs for each genome
+7_Expression_pooled.py – Count +4T and ASC frequencies for pooled HEGs and LEGs genes
+7_Expression_whole_UTR.py – Calculate ASC frequencies for whole UTR and by position for HEGs and LEGs
+7_Expression_write.py – Identify HEGs and LEGs and write to two new FASTA files
+
+
+
+
