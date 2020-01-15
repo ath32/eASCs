@@ -1,0 +1,41 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=15;
+	taxlabels 
+		Schizosaccharomyces_pombe
+		Neurospora_crassa
+		Saccharomyces_cerevisiae
+		Mus_musculus
+		Homo_sapiens
+		Daphnia_pulex
+		Drosophila_melanogaster
+		Caenorhabditis_elegans
+		Dictyostelium_discoideum
+		Chlamydomonas_reinhardtii
+		Oryza_sativa
+		Zea_mays
+		Arabidopsis_thaliana
+		Trypanosoma_brucei
+		Plasmodium_falciparum
+		;
+end;
+begin trees;
+	translate 
+		1 Schizosaccharomyces_pombe,
+		2 Neurospora_crassa,
+		3 Saccharomyces_cerevisiae,
+		4 Mus_musculus,
+		5 Homo_sapiens,
+		6 Daphnia_pulex,
+		7 Drosophila_melanogaster,
+		8 Caenorhabditis_elegans,
+		9 Dictyostelium_discoideum,
+		10 Chlamydomonas_reinhardtii,
+		11 Oryza_sativa,
+		12 Zea_mays,
+		13 Arabidopsis_thaliana,
+		14 Trypanosoma_brucei,
+		15 Plasmodium_falciparum
+		;
+	tree tree1 = [&r]((((((1:590.0,(2:590.0,3:590.0):1.0):515.05915556,((4:89.82318742,5:89.82318742):706.73246041,((6:530.0,7:530.0):213.0,8:743.0):53.55564783):308.50350773):374.94084444,9:1480.0):15.7639,(10:1160.0,((11:49.6,12:49.6):110.87712725,13:160.47712725):999.52287275):335.7639):164.2361,14:1660.0):108.41784,15:1768.41784);
+end;

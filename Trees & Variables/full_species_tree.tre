@@ -1,0 +1,30 @@
+#NEXUS
+begin trees;
+	translate 
+		1 Schizosaccharomyces_pombe,
+		2 Neurospora_crassa,
+		3 Saccharomyces_cerevisiae,
+		4 Ficedula_albicollis,
+		5 Mus_musculus,
+		6 Pan_troglodytes,
+		7 Homo_sapiens,
+		8 Daphnia_pulex,
+		9 Drosophila_pseudoobscura,
+		10 Drosophila_melanogaster,
+		11 Heliconius_melpomene,
+		12 Caenorhabditis_elegans,
+		13 Caenorhabditis_briggsae,
+		14 Pristionchus_pacificus,
+		15 Dictyostelium_discoideum,
+		16 Chlamydomonas_reinhardtii,
+		17 Oryza_rufipogon,
+		18 Oryza_sativa,
+		19 Zea_mays,
+		20 Arabidopsis_thaliana,
+		21 Helianthus_annuus,
+		22 Trypanosoma_brucei,
+		23 Paramecium_tetraurelia,
+		24 Plasmodium_falciparum
+		;
+	tree tree1 = [&r]((((((1:590.0,(2:590.0,3:590.0)14.0:0.0)13.0:515.05915556,((4:311.90392136,(5:89.82318742,(6:6.650905,7:6.650905)11.0:83.17228242)10.0:222.08073394)19.0:484.65172646,((8:530.0,((9:37.18458,10:37.18458)9.0:234.81542,11:272.0)22.0:258.0)8.0:213.0,((12:60.2,13:60.2)6.0:120.453,14:180.653)30.0:562.347)29.0:53.55564783)27.0:308.50350773)35.0:374.94084444,15:1480.0)43.0:15.7639,(16:1160.0,(((17:0.79125,18:0.79125)42.0:48.80875,19:49.6)40.0:110.87712725,(20:117.02839392,21:117.02839392)48.0:43.44873333)51.0:999.52287275)47.0:335.7639)39.0:164.2361,22:1660.0)56.0:108.41784,(23:1290.0,24:1290.0)55.0:478.41784);
+end;
