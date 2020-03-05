@@ -7,6 +7,6 @@ Some notes:
 - We provide a list of all species names used 
 - All python scripts can be found in '0_Cleaned_Python_Scripts'.
 - The PGLS analysis was conducted using R, hence relevant scripts can be found in '0_Cleaned_R_Scripts'.
-- The input files for the PGLS analyses may be found in the 'Trees' and 'Variables' folders.
-- All data relevant to Ne calculation / existing Ne estimates can be found in the 'Ne' folder.
-- All data used in the intraspecies comparisons (D. discoideum, A. thaliana, Aspergillus sps.) can be found in 'Intraspecies comparisons'.
+- The input variables for the PGLS analyses may be found in the 'Trees' and 'Variables' folders.
+- All data relevant to Ne calculation / existing Ne estimates can be found in the Supplementary Material of the paper itself.
+
