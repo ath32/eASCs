@@ -1,0 +1,18 @@
+### READ ME ###
+
+Please find in this folder:
+
+(i) The phylogenetic tree required for the PGLS analysis.
+(ii) The variables required for the PGLS analysis. 
+
+The columns in the variables file are as follows:
+1. Species	
+2. ASC enrichment score
+3. ASC enrichment score (excluding TAA genes) 
+4. ASC enrichment score (only TAA genes)
+5. TAA enrichment score 
+6. log(Ne)	
+7. Cellularity	
+8. GC	
+9.Gene_length	
+10. Integenic
