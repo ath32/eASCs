@@ -14,5 +14,5 @@ The columns in the variables file are as follows:
 6. log(Ne)	
 7. Cellularity	
 8. GC	
-9.Gene_length	
+9. Gene_length	
 10. Integenic
