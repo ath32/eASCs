@@ -4,18 +4,7 @@ Python Scripts – READ ME
 
 This repository contains the source code for running the analysis described in the paper. Not all of the scripts in this repository will be relevant to the complete replication of the study - if you wish to do this, please send me an e-mail and we can sort something out (a.t.ho@bath.ac.uk).
 
-###Instructions:
-- All files run from the root directory.
-- Python scripts are found in 'Python_scripts' (all scripts are run using Python3)
-- R scripts are found in 'R_scripts'
-- UTR sequences are found in ‘FASTA files’
-
-###The folders found in my working directory are labelled 0-9, all available on request:
-- 0 - Scripts
-- 1 - Genome files 
-- 2 – Files for D. discoideum intraspecies analysis
-- 3 - PaxDB raw data and appropriate EMBL genomes
-- 4 - Outputs (includes CSVs)
+NOTE: All files (UTR sequences, FASTA files, expression data etc.) are available upon request.
 
 ###Description of python scripts:
 
