@@ -4,8 +4,7 @@ This repository contains the source code for running the analysis described in t
 
 Some notes:
 
-- We provide a list of all species names used 
-- All python scripts can be found in '0_Cleaned_Python_Scripts'.
+- Python scripts can be found in '0_Cleaned_Python_Scripts'.
 - The PGLS analysis was conducted using R, hence relevant scripts can be found in '0_Cleaned_R_Scripts'.
 - The input variables for the PGLS analyses may be found in the 'Trees' and 'Variables' folders.
 - All data relevant to Ne calculation / existing Ne estimates can be found in the Supplementary Material of the paper itself.
